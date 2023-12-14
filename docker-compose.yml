@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  db:
+    hostname: mysql-library
+    container_name: mysql-library
+    image: mysql:8.0.19
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=library
+  
+  spark-java-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
