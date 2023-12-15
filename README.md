@@ -8,6 +8,7 @@ A simple working example of Spark with Java.
 
 ```bash
 $ docker-compose up -d
+$ cd docker
 $ ./plug_play.sh
 ```
 
