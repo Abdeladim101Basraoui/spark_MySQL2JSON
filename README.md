@@ -15,5 +15,5 @@ $ ./plug_play.sh
 
 
 
-First 3 million records test rows inserted to the database. Then Sparks read those records and convert them to JSON 
+First 1 million records test rows inserted to the database. Then Sparks read those records and convert them to JSON 
 in `books_json` directory. 
