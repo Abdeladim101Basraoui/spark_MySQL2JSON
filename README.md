@@ -1,5 +1,7 @@
 # Sample Spark Java
 
+![](https://i0.wp.com/www.geekyhacker.com/wp-content/uploads/2020/04/Workflow.jpg?w=1000&ssl=1)
+
 A simple working example of Spark with Java.
 
 ## How to run
